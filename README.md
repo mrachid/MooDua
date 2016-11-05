@@ -1,13 +1,12 @@
 # MooDua
 
+MooDua une application Duas ( religions ) afin de lire des textes & de s'entrainer à la prononciation.
 
-- Projet application Duas religions SWIFT 2.3 XCODE 7
-
+- SWIFT 2.3 XCODE 7
 - Avec BDD et API
 - Non respect du MVC (old version)
 - Mise en place des AUDIO
   - Utilisation de AVPLAYER pour l'audio des Duas (APPLE)
-- Git clone et lancer le projet afin de voir le résultat
 
 - COCOAPODS:
   - FIREBASE 
@@ -15,7 +14,11 @@
   - SWIFTYJSON
     - Parser les données de FIREBASE
 
-- Futur mise en page d'une View "Donnation" afin de faire des dons à des associations caritative
+- PROCHAINE VERSION:
+  - Mise en place d'une View "Donnation" afin de faire des dons à des associations caritatives ( PayPal )
+  - Amélioration du Parse et de l'audio de FIREBASE
+  
+  
 
 PODS push dans la racine du projet, à ne pas faire.
 
