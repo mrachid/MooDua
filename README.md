@@ -4,7 +4,7 @@
 - Projet application Duas religions SWIFT 2.3 XCODE 7
 
 - Avec BDD et API
-- Non respect du MVC (first programme)
+- Non respect du MVC (old version)
 - Mise en place des AUDIO
   - Utilisation de AVPLAYER pour l'audio des Duas (APPLE)
 - Git clone et lancer le projet afin de voir le résultat
