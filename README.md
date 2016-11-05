@@ -15,6 +15,8 @@
   - SWIFTYJSON
     - Parser les données de FIREBASE
 
+- Futur mise en page d'une View "Donnation" afin de faire des dons à des associations caritative
+
 PODS push dans la racine du projet, à ne pas faire.
 
 SCREEN:
