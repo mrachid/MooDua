@@ -133,7 +133,6 @@ class DetailsDuaViewController: UIViewController {
     }
     
     func updateAudioSetting() {
-        print("FUCK")
         playButton.setImage(UIImage(named: "play"), for: UIControlState.normal)
         isPlaying = false
         prepareAudio()
