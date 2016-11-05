@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F07927C1DC01653004AFDB4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F07927A1DC01653004AFDB4 /* AVFoundation.framework */; };
+		8F5B34CB1DBE4278007F31DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5B34CA1DBE4278007F31DC /* AppDelegate.swift */; };
+		8F5B34CD1DBE4278007F31DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5B34CC1DBE4278007F31DC /* ViewController.swift */; };
+		8F5B34D01DBE4278007F31DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F5B34CE1DBE4278007F31DC /* Main.storyboard */; };
+		8F5B34D21DBE4278007F31DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F5B34D11DBE4278007F31DC /* Assets.xcassets */; };
+		8F5B34D51DBE4278007F31DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F5B34D31DBE4278007F31DC /* LaunchScreen.storyboard */; };
+		8F5B34DD1DBE5C11007F31DC /* DuaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5B34DC1DBE5C11007F31DC /* DuaViewController.swift */; };
+		8F5B34E01DBE70E8007F31DC /* DetailsDuaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5B34DF1DBE70E8007F31DC /* DetailsDuaViewController.swift */; };
+		8F5B34E21DBF77B9007F31DC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F5B34E11DBF77B9007F31DC /* GoogleService-Info.plist */; };
+		8F5B34E41DBF9E0A007F31DC /* Duas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5B34E31DBF9E0A007F31DC /* Duas.swift */; };
+		9C915A913F30E8DCA0D7B111 /* Pods_MooDua.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A5D733CE5E610A58AF5E0D5 /* Pods_MooDua.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A5D733CE5E610A58AF5E0D5 /* Pods_MooDua.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MooDua.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F07927A1DC01653004AFDB4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8F07927B1DC01653004AFDB4 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		8F5B34C71DBE4278007F31DC /* MooDua.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MooDua.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F5B34CA1DBE4278007F31DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8F5B34CC1DBE4278007F31DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8F5B34CF1DBE4278007F31DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F5B34D11DBE4278007F31DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F5B34D41DBE4278007F31DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F5B34D61DBE4278007F31DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F5B34DC1DBE5C11007F31DC /* DuaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DuaViewController.swift; sourceTree = "<group>"; };
+		8F5B34DF1DBE70E8007F31DC /* DetailsDuaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsDuaViewController.swift; sourceTree = "<group>"; };
+		8F5B34E11DBF77B9007F31DC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8F5B34E31DBF9E0A007F31DC /* Duas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Duas.swift; sourceTree = "<group>"; };
+		C7E0C29ECEE60B540C56D638 /* Pods-MooDua.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MooDua.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MooDua/Pods-MooDua.debug.xcconfig"; sourceTree = "<group>"; };
+		E021E2254B164FBBADF9E1B0 /* Pods-MooDua.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MooDua.release.xcconfig"; path = "Pods/Target Support Files/Pods-MooDua/Pods-MooDua.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F5B34C41DBE4278007F31DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F07927C1DC01653004AFDB4 /* AVFoundation.framework in Frameworks */,
+				9C915A913F30E8DCA0D7B111 /* Pods_MooDua.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F294E4DACF3A88CBCEEA7DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F07927A1DC01653004AFDB4 /* AVFoundation.framework */,
+				8F07927B1DC01653004AFDB4 /* AVKit.framework */,
+				3A5D733CE5E610A58AF5E0D5 /* Pods_MooDua.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F506B211DCA80C600E91FEC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8F5B34CC1DBE4278007F31DC /* ViewController.swift */,
+				8F5B34DF1DBE70E8007F31DC /* DetailsDuaViewController.swift */,
+				8F5B34DC1DBE5C11007F31DC /* DuaViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		8F5B34BE1DBE4278007F31DC = {
+			isa = PBXGroup;
+			children = (
+				8F5B34C91DBE4278007F31DC /* MooDua */,
+				8F5B34C81DBE4278007F31DC /* Products */,
+				D1EE6E6B9A28570C1D575FE1 /* Pods */,
+				0F294E4DACF3A88CBCEEA7DF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8F5B34C81DBE4278007F31DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F5B34C71DBE4278007F31DC /* MooDua.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F5B34C91DBE4278007F31DC /* MooDua */ = {
+			isa = PBXGroup;
+			children = (
+				8F5B34DE1DBE5C1C007F31DC /* Supporting Files */,
+				8F506B211DCA80C600E91FEC /* Controller */,
+				8F5B34E31DBF9E0A007F31DC /* Duas.swift */,
+				8F5B34CE1DBE4278007F31DC /* Main.storyboard */,
+			);
+			path = MooDua;
+			sourceTree = "<group>";
+		};
+		8F5B34DE1DBE5C1C007F31DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F5B34E11DBF77B9007F31DC /* GoogleService-Info.plist */,
+				8F5B34CA1DBE4278007F31DC /* AppDelegate.swift */,
+				8F5B34D11DBE4278007F31DC /* Assets.xcassets */,
+				8F5B34D31DBE4278007F31DC /* LaunchScreen.storyboard */,
+				8F5B34D61DBE4278007F31DC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D1EE6E6B9A28570C1D575FE1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7E0C29ECEE60B540C56D638 /* Pods-MooDua.debug.xcconfig */,
+				E021E2254B164FBBADF9E1B0 /* Pods-MooDua.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F5B34C61DBE4278007F31DC /* MooDua */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F5B34D91DBE4278007F31DC /* Build configuration list for PBXNativeTarget "MooDua" */;
+			buildPhases = (
+				D52397B7EB0CABDFD3E9885D /* [CP] Check Pods Manifest.lock */,
+				8F5B34C31DBE4278007F31DC /* Sources */,
+				8F5B34C41DBE4278007F31DC /* Frameworks */,
+				8F5B34C51DBE4278007F31DC /* Resources */,
+				13DD0C056BE7755A7091BB9F /* [CP] Embed Pods Frameworks */,
+				EB0665A023A88DAE8ED14752 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MooDua;
+			productName = MooDua;
+			productReference = 8F5B34C71DBE4278007F31DC /* MooDua.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F5B34BF1DBE4278007F31DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Rachid;
+				TargetAttributes = {
+					8F5B34C61DBE4278007F31DC = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = J2389XNNE7;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8F5B34C21DBE4278007F31DC /* Build configuration list for PBXProject "MooDua" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F5B34BE1DBE4278007F31DC;
+			productRefGroup = 8F5B34C81DBE4278007F31DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F5B34C61DBE4278007F31DC /* MooDua */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F5B34C51DBE4278007F31DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F5B34D51DBE4278007F31DC /* LaunchScreen.storyboard in Resources */,
+				8F5B34E21DBF77B9007F31DC /* GoogleService-Info.plist in Resources */,
+				8F5B34D21DBE4278007F31DC /* Assets.xcassets in Resources */,
+				8F5B34D01DBE4278007F31DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13DD0C056BE7755A7091BB9F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MooDua/Pods-MooDua-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D52397B7EB0CABDFD3E9885D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EB0665A023A88DAE8ED14752 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MooDua/Pods-MooDua-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F5B34C31DBE4278007F31DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F5B34E41DBF9E0A007F31DC /* Duas.swift in Sources */,
+				8F5B34E01DBE70E8007F31DC /* DetailsDuaViewController.swift in Sources */,
+				8F5B34CD1DBE4278007F31DC /* ViewController.swift in Sources */,
+				8F5B34CB1DBE4278007F31DC /* AppDelegate.swift in Sources */,
+				8F5B34DD1DBE5C11007F31DC /* DuaViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8F5B34CE1DBE4278007F31DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F5B34CF1DBE4278007F31DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F5B34D31DBE4278007F31DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F5B34D41DBE4278007F31DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F5B34D71DBE4278007F31DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F5B34D81DBE4278007F31DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F5B34DA1DBE4278007F31DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7E0C29ECEE60B540C56D638 /* Pods-MooDua.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J2389XNNE7;
+				INFOPLIST_FILE = MooDua/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rash.company.MooDua;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8F5B34DB1DBE4278007F31DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E021E2254B164FBBADF9E1B0 /* Pods-MooDua.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J2389XNNE7;
+				INFOPLIST_FILE = MooDua/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rash.company.MooDua;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F5B34C21DBE4278007F31DC /* Build configuration list for PBXProject "MooDua" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F5B34D71DBE4278007F31DC /* Debug */,
+				8F5B34D81DBE4278007F31DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F5B34D91DBE4278007F31DC /* Build configuration list for PBXNativeTarget "MooDua" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F5B34DA1DBE4278007F31DC /* Debug */,
+				8F5B34DB1DBE4278007F31DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F5B34BF1DBE4278007F31DC /* Project object */;
+}
